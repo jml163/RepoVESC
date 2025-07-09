@@ -1,0 +1,3 @@
+D:/work2025/MyCLionProject/VESC_Drive/bldc/cmake-build-debug/CMakeFiles/VESC-DRIVE-STM32F4-fw.elf.dir
+D:/work2025/MyCLionProject/VESC_Drive/bldc/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/work2025/MyCLionProject/VESC_Drive/bldc/cmake-build-debug/CMakeFiles/rebuild_cache.dir

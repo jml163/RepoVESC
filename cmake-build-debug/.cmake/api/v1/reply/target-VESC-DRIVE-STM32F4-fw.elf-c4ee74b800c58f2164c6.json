@@ -1,0 +1,2946 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "VESC-DRIVE-STM32F4-fw.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_link_options",
+			"add_compile_options",
+			"add_definitions",
+			"add_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 585,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 558,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 559,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 577,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 115,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 119,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 120,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 123,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 95,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 113,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 513,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 208,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 151,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -O2 -std=gnu11 -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-DFPU_FPV4"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-mcpu=cortex-m4"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-mthumb-interwork"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fmessage-length=0"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-O2"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fomit-frame-pointer"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-falign-functions=16"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-std=gnu99"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-D_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-DLBM_USE_DYN_FUNS"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-DLBM_USE_DYN_MACROS"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-DLBM_USE_DYN_LOOPS"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-DLBM_USE_TIME_QUOTA"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-DLBM_USE_ERROR_LINENO"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-psabi"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fsingle-precision-constant"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wdouble-promotion"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "ARM_GCC_VERSION=\"7.3.1\""
+				},
+				{
+					"backtrace" : 10,
+					"define" : "ARM_MATH_CM4"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "ARM_MATH_MATRIX_CHECK"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "ARM_MATH_ROUNDING"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "BOARD_OTG_NOVBUSSENS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "CORTEX_USE_FPU=TRUE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "GIT_BRANCH_NAME=\"master\""
+				},
+				{
+					"backtrace" : 9,
+					"define" : "GIT_COMMIT_HASH=\"acb8f4b1\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "HW_HEADER=\"hwconf/other/vesc4/hw_40.h\""
+				},
+				{
+					"backtrace" : 9,
+					"define" : "HW_SOURCE=\"hwconf/other/vesc4/hw_40.c\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LBM_USE_DYN_FUNS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LBM_USE_DYN_LOOPS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LBM_USE_DYN_MACROS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LBM_USE_ERROR_LINENO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LBM_USE_TIME_QUOTA=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "STM32F4"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "STM32F405xx"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "STM32F4xx"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "THUMB_NO_INTERWORKING=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "THUMB_PRESENT=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USE_EXCEPTIONS_STACKSIZE=0x800"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USE_FPU=hard"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USE_LISPBM=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USE_PROCESS_STACKSIZE=0x800"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "USE_STDPERIPH_DRIVER"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USE_STDPERIPH_DRIVER=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USE_THUMB=yes"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "configAPPLICATION_ALLOCATED_HEAP"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/."
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/util"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/driver"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/driver/nrf"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/qmlui"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/comm"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/util/lzo"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/common/ARMCMx"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/ext/stdperiph_stm32f4/inc"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/common/ports/ARMCMx/devices/stm32f4xx"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/STM32F4xx"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/ext/CMSIS/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/ext/CMSIS/ST"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/LLD"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/LLD/DACv1"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/LLD/GPIOv2"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/LLD/I2Cv1"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/LLD/OTGv1"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/LLD/RTCv2"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/LLD/SPIv1"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/LLD/TIMv1"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/LLD/USARTv1"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/rt/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/rt/ports/ARMCMx"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/rt/ports/ARMCMx/compilers/GCC"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/osal/rt"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/various"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/lib/streams"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/motor"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/hwconf"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/hwconf/luna"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/hwconf/other"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/lispBM"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/lispBM/lispBM/repl"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/lispBM/lispBM"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/lispBM/lispBM/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/lispBM/lispBM/platform/chibios/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/applications"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/libcanard"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/libcanard/dsdl"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/imu"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/imu/BMI160_driver"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/imu/Fusion"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/blackmagic"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/blackmagic/target"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/encoder"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -x assembler-with-cpp"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-DFPU_FPV4"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-mcpu=cortex-m4"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-mthumb-interwork"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fmessage-length=0"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-O2"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fomit-frame-pointer"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-falign-functions=16"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-std=gnu99"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-D_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-DLBM_USE_DYN_FUNS"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-DLBM_USE_DYN_MACROS"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-DLBM_USE_DYN_LOOPS"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-DLBM_USE_TIME_QUOTA"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-DLBM_USE_ERROR_LINENO"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-psabi"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fsingle-precision-constant"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wdouble-promotion"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "ARM_GCC_VERSION=\"7.3.1\""
+				},
+				{
+					"backtrace" : 10,
+					"define" : "ARM_MATH_CM4"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "ARM_MATH_MATRIX_CHECK"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "ARM_MATH_ROUNDING"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "BOARD_OTG_NOVBUSSENS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "CORTEX_USE_FPU=TRUE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "GIT_BRANCH_NAME=\"master\""
+				},
+				{
+					"backtrace" : 9,
+					"define" : "GIT_COMMIT_HASH=\"acb8f4b1\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "HW_HEADER=\"hwconf/other/vesc4/hw_40.h\""
+				},
+				{
+					"backtrace" : 9,
+					"define" : "HW_SOURCE=\"hwconf/other/vesc4/hw_40.c\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LBM_USE_DYN_FUNS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LBM_USE_DYN_LOOPS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LBM_USE_DYN_MACROS=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LBM_USE_ERROR_LINENO=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LBM_USE_TIME_QUOTA=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "STM32F4"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "STM32F405xx"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "STM32F4xx"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "THUMB_NO_INTERWORKING=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "THUMB_PRESENT=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USE_EXCEPTIONS_STACKSIZE=0x800"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USE_FPU=hard"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USE_LISPBM=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USE_PROCESS_STACKSIZE=0x800"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "USE_STDPERIPH_DRIVER"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USE_STDPERIPH_DRIVER=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USE_THUMB=yes"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "configAPPLICATION_ALLOCATED_HEAP"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/."
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/util"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/driver"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/driver/nrf"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/qmlui"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/comm"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/util/lzo"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/common/ARMCMx"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/ext/stdperiph_stm32f4/inc"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/common/ports/ARMCMx/devices/stm32f4xx"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/STM32F4xx"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/ext/CMSIS/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/ext/CMSIS/ST"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/LLD"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/LLD/DACv1"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/LLD/GPIOv2"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/LLD/I2Cv1"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/LLD/OTGv1"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/LLD/RTCv2"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/LLD/SPIv1"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/LLD/TIMv1"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/ports/STM32/LLD/USARTv1"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/rt/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/rt/ports/ARMCMx"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/rt/ports/ARMCMx/compilers/GCC"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/osal/rt"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/various"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ChibiOS_3.0.5/os/hal/lib/streams"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/motor"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/hwconf"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/hwconf/luna"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/hwconf/other"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/lispBM"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/lispBM/lispBM/repl"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/lispBM/lispBM"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/lispBM/lispBM/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/lispBM/lispBM/platform/chibios/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/applications"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/libcanard"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/libcanard/dsdl"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/imu"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/imu/BMI160_driver"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/imu/Fusion"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/blackmagic"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/blackmagic/target"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/encoder"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				164,
+				165
+			]
+		}
+	],
+	"id" : "VESC-DRIVE-STM32F4-fw.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O2",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mfloat-abi=hard",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mfpu=fpv4-sp-d16",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-DFPU_FPV4",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-specs=nosys.specs",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,-u,_printf_float",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,-u,_scanf_float",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=D:/work2025/MyCLionProject/VESC_Drive/bldc/cmake-build-debug/VESC-DRIVE-STM32F4-fw.map",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-mcpu=cortex-m4",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-mthumb",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-mno-thumb-interwork",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-T",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:/work2025/MyCLionProject/VESC_Drive/bldc/ld_eeprom_emu.ld",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--defsym=__main_stack_size__=0x800",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--defsym=__process_stack_size__=0x800",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-Wl,--whole-archive",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lm",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-Wl,--no-whole-archive",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lc",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lgcc",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lnosys",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "VESC-DRIVE-STM32F4-fw.elf",
+	"nameOnDisk" : "VESC-DRIVE-STM32F4-fw.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				164,
+				165
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "irq_handlers.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "terminal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "conf_general.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "timeout.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "flash_helper.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "confgenerator.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "bms.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "qmlui/qmlui.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "conf_custom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "encoder/encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "encoder/encoder_cfg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "encoder/enc_abi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "encoder/enc_ad2s1205.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "encoder/enc_as5x47u.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "encoder/enc_as504x.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "encoder/enc_bissc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "encoder/enc_mt6816.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "encoder/enc_sincos.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "encoder/enc_tle5012.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "encoder/enc_ts5700n8501.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "encoder/enc_pwm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "blackmagic/bm_if.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "blackmagic/swdptap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "blackmagic/timing.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "blackmagic/platform.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "blackmagic/exception.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "blackmagic/target/swdptap_generic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "blackmagic/target/target.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "blackmagic/target/adiv5_swdp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "blackmagic/target/adiv5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "blackmagic/target/cortexm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "blackmagic/target/nrf51.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "blackmagic/target/stm32f1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "blackmagic/target/stm32f4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "blackmagic/target/stm32h7.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "blackmagic/target/stm32l0.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "blackmagic/target/stm32l4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "imu/mpu9150.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "imu/icm20948.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "imu/ahrs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "imu/imu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "imu/BMI160_driver/bmi160.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "imu/bmi160_wrapper.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "imu/lsm6ds3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "imu/Fusion/FusionAhrs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "imu/Fusion/FusionBias.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "imu/Fusion/FusionCompass.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libcanard/canard.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libcanard/canard_driver.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libcanard/dsdl/uavcan/equipment/esc/esc_Status.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libcanard/dsdl/uavcan/equipment/esc/esc_RawCommand.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libcanard/dsdl/uavcan/equipment/esc/esc_RPMCommand.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libcanard/dsdl/uavcan/protocol/protocol_GetNodeInfo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libcanard/dsdl/uavcan/protocol/protocol_HardwareVersion.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libcanard/dsdl/uavcan/protocol/protocol_NodeStatus.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libcanard/dsdl/uavcan/protocol/protocol_SoftwareVersion.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libcanard/dsdl/uavcan/protocol/param/param_Empty.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libcanard/dsdl/uavcan/protocol/param/param_ExecuteOpcode.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libcanard/dsdl/uavcan/protocol/param/param_GetSet.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libcanard/dsdl/uavcan/protocol/param/param_NumericValue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libcanard/dsdl/uavcan/protocol/param/param_Value.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libcanard/dsdl/uavcan/protocol/file/file_BeginFirmwareUpdate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libcanard/dsdl/uavcan/protocol/file/file_Read.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libcanard/dsdl/vesc/vesc_RTData.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "applications/app.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "applications/app_ppm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "applications/app_adc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "applications/app_sten.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "applications/app_uartcomm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "applications/app_nunchuk.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "applications/app_pas.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "applications/app_custom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/hal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/hal_queues.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/hal_mmcsd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/adc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/can.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/dac.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/ext.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/gpt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/i2s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/icu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/mac.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/mmc_spi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/pal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/pwm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/rtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/sdc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/serial.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/serial_usb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/spi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/st.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/src/usb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/env.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/fundamental.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/heap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/lbm_memory.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/print.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/stack.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/symrepr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/tokpar.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/extensions.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/lispbm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/eval_cps.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/platform/chibios/src/platform_mutex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/lbm_channel.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/lbm_c_interop.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/lbm_custom_type.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/lbm_flags.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/lbm_flat_value.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/lbm_prof.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/lbm_defrag_mem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/lbm_image.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/extensions/array_extensions.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/extensions/math_extensions.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/extensions/string_extensions.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/extensions/mutex_extensions.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispBM/src/extensions/lbm_dyn_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispif.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispif_vesc_extensions.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lispif_c_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lispBM/lbm_vesc_utils.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "motor/foc_math.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "motor/mc_interface.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "motor/mcpwm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "motor/mcpwm_foc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "motor/virtual_motor.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/ext/stdperiph_stm32f4/src/misc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/ext/stdperiph_stm32f4/src/stm32f4xx_adc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/ext/stdperiph_stm32f4/src/stm32f4xx_dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/ext/stdperiph_stm32f4/src/stm32f4xx_exti.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/ext/stdperiph_stm32f4/src/stm32f4xx_flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/ext/stdperiph_stm32f4/src/stm32f4xx_rcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/ext/stdperiph_stm32f4/src/stm32f4xx_syscfg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/ext/stdperiph_stm32f4/src/stm32f4xx_tim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/ext/stdperiph_stm32f4/src/stm32f4xx_iwdg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/ext/stdperiph_stm32f4/src/stm32f4xx_wwdg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/common/ARMCMx/nvic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/STM32F4xx/stm32_dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/STM32F4xx/hal_lld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/STM32F4xx/adc_lld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/STM32F4xx/ext_lld_isr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/LLD/can_lld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/LLD/ext_lld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/LLD/mac_lld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/LLD/sdc_lld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/LLD/DACv1/dac_lld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/LLD/GPIOv2/pal_lld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/LLD/I2Cv1/i2c_lld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/LLD/OTGv1/usb_lld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/LLD/RTCv2/rtc_lld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/LLD/SPIv1/i2s_lld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/LLD/SPIv1/spi_lld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/LLD/TIMv1/gpt_lld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/LLD/TIMv1/icu_lld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/LLD/TIMv1/pwm_lld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/LLD/TIMv1/st_lld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/LLD/USARTv1/serial_lld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/ports/STM32/LLD/USARTv1/uart_lld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/osal/rt/osal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/common/ports/ARMCMx/compilers/GCC/crt1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ChibiOS_3.0.5/os/common/ports/ARMCMx/compilers/GCC/crt0_v7m.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ChibiOS_3.0.5/os/rt/ports/ARMCMx/compilers/GCC/chcoreasm_v7m.s",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/common/ports/ARMCMx/compilers/GCC/vectors.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/ports/ARMCMx/chcore.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/ports/ARMCMx/chcore_v7m.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/src/chsys.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/src/chdebug.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/src/chvt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/src/chschd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/src/chthreads.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/src/chtm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/src/chstats.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/src/chdynamic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/src/chregistry.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/src/chsem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/src/chmtx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/src/chcond.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/src/chevents.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/src/chmsg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/src/chmboxes.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/src/chqueues.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/src/chmemcore.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/src/chheap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/rt/src/chmempools.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/hal/lib/streams/chprintf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ChibiOS_3.0.5/os/various/syscalls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "events.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "hwconf/board.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "hwconf/luna/bbshd/luna_display_serial.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "hwconf/luna/m600/luna_m600_display.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/eeprom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/i2c_bb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/ledpwm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/servo_dec.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/spi_bb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/pwm_servo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/lora/SX1278.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/lora/lora.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/lora/SX1278_hw.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/nrf/spi_sw.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/nrf/rf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/nrf/rfhelp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "driver/nrf/nrf_driver.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "hwconf/hw.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "hwconf/drv8301.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "hwconf/drv8305.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "hwconf/drv8316.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "hwconf/drv8320s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "hwconf/drv8323s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "hwconf/si8900.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "hwconf/shutdown.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "comm/commands.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "comm/comm_usb_serial.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "comm/comm_usb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "comm/comm_can.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "comm/packet.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "comm/log.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "util/buffer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "util/crc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "util/digital_filter.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "util/mempools.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "util/utils_math.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "util/utils_sys.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "util/worker.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "util/lzo/minilzo.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
