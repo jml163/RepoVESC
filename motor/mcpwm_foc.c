@@ -2657,6 +2657,7 @@ int mcpwm_foc_dc_cal(bool cal_undriven) {
 #endif
 	}
 
+
 	// TODO: Make sure that offsets are no more than e.g. 5%, as larger values indicate hardware problems.
 
 	// Enable timeout
@@ -2780,6 +2781,7 @@ int mcpwm_foc_dc_cal(bool cal_undriven) {
 	return 1;
 }
 #endif
+
 
 void mcpwm_foc_print_state(void) {
 	commands_printf("Mod d:     %.2f", (double)get_motor_now()->m_motor_state.mod_d);
