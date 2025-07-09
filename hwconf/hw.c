@@ -25,6 +25,7 @@
 #include HW_SOURCE_ALT
 #else
 #include HW_SOURCE
+//#pragma message("Using hardware source: " HW_SOURCE)
 #endif
 
 uint8_t hw_id_from_uuid(void) {

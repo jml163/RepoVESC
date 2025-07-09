@@ -14,7 +14,6 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     */
-
 #include "hw.h"
 
 #include "ch.h"
@@ -23,6 +22,7 @@
 #include "utils_math.h"
 #include <math.h>
 #include "mc_interface.h"
+
 
 // Variables
 static volatile bool i2c_running = false;

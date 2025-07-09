@@ -13,6 +13,12 @@ ifeq ($(USE_OPT),)
   USE_OPT += -DLBM_USE_ERROR_LINENO
 #  USE_OPT += -DUSE_GC_PTR_REV
   USE_OPT += -fsingle-precision-constant -Wdouble-promotion -specs=nosys.specs
+# 硬件配置定义
+	USE_OPT += -DHW_SOURCE='"hwconf/trampa/100_250/hw_100_250.c"'
+	USE_OPT += -DHW_HEADER='"hwconf/trampa/100_250/hw_100_250.h"'  
+	USE_OPT += -DGIT_BRANCH_NAME='"master"'
+	USE_OPT += -DGIT_COMMIT_HASH='"acb8f4b1"'
+	USE_OPT += -DARM_GCC_VERSION='"7.3.1"'	
 endif
 
 # C specific options here (added to USE_OPT).

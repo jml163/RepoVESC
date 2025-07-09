@@ -263,7 +263,6 @@ int main(void) {
 	palSetPadMode(BOOT_OK_GPIO, BOOT_OK_PIN, PAL_MODE_OUTPUT_PUSHPULL);
 	palClearPad(BOOT_OK_GPIO, BOOT_OK_PIN);
 #endif
-
 	chThdSleepMilliseconds(100);
 
 	mempools_init();
@@ -272,7 +271,6 @@ int main(void) {
 	hw_init_gpio();
 	LED_RED_OFF();
 	LED_GREEN_OFF();
-
 	conf_general_init();
 
 	if (flash_helper_verify_flash_memory() == FAULT_CODE_FLASH_CORRUPTION)	{

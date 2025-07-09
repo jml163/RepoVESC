@@ -71,8 +71,8 @@
  *          stack (dual stack mode).
  */
 #if !defined(CRT0_CONTROL_INIT) || defined(__DOXYGEN__)
-#define CRT0_CONTROL_INIT                   (CONTROL_USE_PSP |              \
-                                             CONTROL_MODE_PRIVILEGED)
+#define CRT0_CONTROL_INIT    (CONTROL_USE_PSP | CONTROL_MODE_PRIVILEGED)
+
 #endif
 
 /**
@@ -129,7 +129,7 @@
  * @note    Only used if @p CRT0_INIT_FPU is equal to @p TRUE.
  */
 #if !defined(CRT0_FPCCR_INIT) || defined(__DOXYGEN__)
-#define CRT0_FPCCR_INIT                     (FPCCR_ASPEN | FPCCR_LSPEN)
+#define CRT0_FPCCR_INIT   (FPCCR_ASPEN | FPCCR_LSPEN)
 #endif
 
 /**

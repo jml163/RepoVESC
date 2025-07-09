@@ -43,7 +43,6 @@ void hw_init_gpio(void) {
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB, ENABLE);
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
-
 	// LEDs
 	palSetPadMode(GPIOC, 4,
 			PAL_MODE_OUTPUT_PUSHPULL |
